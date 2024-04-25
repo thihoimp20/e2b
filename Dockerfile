@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 node:lts-slim AS builder
+FROM --platform=linux/amd64 node:20.12.2-slim AS builder
 
 WORKDIR /app
 
@@ -25,7 +25,7 @@ ENV NEXT_TELEMETRY_DISABLED 1
 RUN npm run build
 
 
-FROM --platform=linux/amd64 node:lts-slim AS runner
+FROM --platform=linux/amd64 node:20.12.2-slim AS runner
 WORKDIR /app
 
 
