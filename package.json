@@ -43,9 +43,9 @@
   "dependencies": {
     "@devbookhq/splitter": "^1.4.0",
     "@headlessui/react": "^1.7.14",
-    "@octokit/auth-app": "^4.0.13",
-    "@octokit/rest": "^19.0.11",
-    "@octokit/webhooks": "^11.1.0",
+    "@octokit/auth-app": "^7.1.5",
+    "@octokit/rest": "^21.1.1",
+    "@octokit/webhooks": "^13.6.1",
     "@opentelemetry/api": "^1.4.1",
     "@prisma/client": "^4.13.0",
     "@sentry/nextjs": "^7.55.2",
